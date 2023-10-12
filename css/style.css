@@ -1,0 +1,227 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+[id] {
+	scroll-margin-top: 73.6px;
+}
+
+@media (min-width: 992px) {
+	[id] {
+		scroll-margin-top: 65px;
+	}
+}
+
+@media (max-width: 576px) {
+	.hero-image {
+		background-image: url('/img/happy-birthday-gfcb9d4776_640.jpg');
+	}
+
+	.aboutus-photo {
+		background-image: url('/img/food-g90f4c827a_640.jpg');
+	}
+
+	.carousel-img-one {
+		background-image: url('/img/chocolates-g60ca8e3ac_640.jpg');
+	}
+
+	.carousel-img-two {
+		background-image: url('/img/cake-pops-g274986ab4_640.jpg');
+	}
+
+	.carousel-img-three {
+		background-image: url('/img/nougat-ga7278549a_640.jpg');
+	}
+}
+
+.brand-name {
+	font-family: 'Alex Brush', cursive;
+}
+
+body {
+	position: relative;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.6rem;
+}
+
+.hero-image {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 250px;
+	background-image: url('/img/happy-birthday-gf2ec07b15_1920.jpg');
+	background-position: 0 40%;
+	background-size: cover;
+	z-index: 0;
+}
+
+.hero-shadow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+	z-index: -1;
+}
+
+.hero-image h1 {
+	position: relative;
+	font-size: 4em;
+}
+
+.navbar-nav {
+	font-size: 1.2em;
+	padding: 10px;
+}
+
+.navbar-nav a {
+	margin: 0 30px;
+	padding: 10px;
+	font-size: 1.4em;
+}
+
+.navbar-toggler {
+	margin: 10px;
+	padding: 10px;
+	font-size: 1.4em;
+	z-index: 1;
+	border: none;
+}
+
+/* main */
+/* section aboutus */
+
+.aboutus-photo {
+	height: 300px;
+	width: 100%;
+	background-image: url('/img/food-gfc210adcd_1920.jpg');
+	background-position: center;
+	background-size: cover;
+	border-radius: 10px;
+}
+
+.about-us-text {
+	text-align: justify;
+}
+
+.carousel-item {
+	height: 350px;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	border-radius: 10px;
+}
+
+.carousel-img-one {
+	background-image: url('/img/chocolates-g338720f66_1920.jpg');
+}
+
+.carousel-img-two {
+	background-image: url('/img/cake-pops-gcd5ac85ca_1920.jpg');
+}
+
+.carousel-img-three {
+	background-image: url('/img/nougat-g37971eaee_1920.jpg');
+}
+
+/* oferrs */
+
+.all-offers .card {
+	margin: 5px;
+	padding: 5px;
+	height: 420px;
+	border-radius: 15px;
+}
+
+.all-offers .card h1 {
+	color: rgb(138, 15, 107);
+	font-size: 1.6em;
+	letter-spacing: 1px;
+}
+
+.all-offers .card p {
+	font-size: 1.2em;
+}
+
+.all-offers .card i {
+	padding: 10px;
+	font-size: 2.5em;
+}
+
+.all-offers .card .btn {
+	margin: 10px;
+	padding: 10px;
+	width: 80%;
+	font-size: 1.6em;
+
+	background-color: rgb(138, 15, 107);
+	text-transform: uppercase;
+	border-radius: 15px;
+	transition: transorm 0.3s;
+}
+
+.all-offers .card .btn:hover {
+	transform: scale(1.02);
+}
+
+/* business-area */
+
+.business-area iframe {
+	height: 600px;
+	width: 70%;
+	border-radius: 15px;
+}
+
+/* kontakt */
+
+.contact-address h3 {
+	padding: 10px;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: rgb(138, 15, 107);
+}
+
+.contact-address i {
+	font-size: 3em;
+}
+
+.contact-form label {
+	color: rgb(138, 15, 107);
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+	margin-top: 10px;
+	font-size: 1em;
+}
+
+.contact-form .btn-area {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact-form .btn {
+	margin: 10px;
+	padding: 10px;
+	width: 70%;
+	font-size: 1em;
+	text-transform: uppercase;
+}
+
+/* footer */
+
+.footer-info {
+	letter-spacing: 1px;
+	font-size: 1em;
+}
